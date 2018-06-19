@@ -1,0 +1,138 @@
+Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module build failed: ReferenceError: [BABEL] C:\users\kasztaniewicz\documents\  kodilla\projekty\modul-16\zadanie-16-5\node_modules\webpack\buildin\global.js:   Unknown option: C:\users\kasztaniewicz\documents\kodilla\projekty\modul-16\za  danie-16-5\node_modules\react\index.js.Children. Check out http://babeljs.io/d  ocs/usage/options/ for more information about options.
+  A common cause of this error is the presence of a configuration options object   without the corresponding preset name. Example:
+  Invalid:
+    `{ presets: [{option: value}] }`
+  Valid:
+    `{ presets: [['presetName', {option: value}]] }`
+  For more detailed information on preset configuration, please see https://babe  ljs.io/docs/en/plugins#pluginpresets-options. (While processing preset: "C:\\u  sers\\kasztaniewicz\\documents\\kodilla\\projekty\\modul-16\\zadanie-16-5\\nod  e_modules\\react\\index.js")
+  
+  - logger.js:41 Logger.error
+    [zadanie-16-5]/[babel-core]/lib/transformation/file/logger.js:41:11
+  
+  - option-manager.js:226 OptionManager.mergeOptions
+    [zadanie-16-5]/[babel-core]/lib/transformation/file/options/option-manager.j    s:226:20
+  
+  - option-manager.js:265 
+    [zadanie-16-5]/[babel-core]/lib/transformation/file/options/option-manager.j    s:265:14
+  
+  - option-manager.js:323 
+    [zadanie-16-5]/[babel-core]/lib/transformation/file/options/option-manager.j    s:323:22
+  
+  - Array.map
+  
+  - option-manager.js:275 OptionManager.resolvePresets
+    [zadanie-16-5]/[babel-core]/lib/transformation/file/options/option-manager.j    s:275:20
+  
+  - option-manager.js:264 OptionManager.mergePresets
+    [zadanie-16-5]/[babel-core]/lib/transformation/file/options/option-manager.j    s:264:10
+  
+  - option-manager.js:249 OptionManager.mergeOptions
+    [zadanie-16-5]/[babel-core]/lib/transformation/file/options/option-manager.j    s:249:14
+  
+  - option-manager.js:368 OptionManager.init
+    [zadanie-16-5]/[babel-core]/lib/transformation/file/options/option-manager.j    s:368:12
+  
+  - index.js:212 File.initOptions
+    [zadanie-16-5]/[babel-core]/lib/transformation/file/index.js:212:65
+  
+  - index.js:135 new File
+    [zadanie-16-5]/[babel-core]/lib/transformation/file/index.js:135:24
+  
+  - pipeline.js:46 Pipeline.transform
+    [zadanie-16-5]/[babel-core]/lib/transformation/pipeline.js:46:16
+  
+  - index.js:50 transpile
+    [zadanie-16-5]/[babel-loader]/lib/index.js:50:20
+  
+  
+  - ReferenceError: [BABEL] C:\users\kasztaniewicz\documents\kodilla\projekty\mo    dul-16\zadanie-16-5\node_modules\webpack\buildin\global.js: Unknown option:     C:\users\kasztaniewicz\documents\kodilla\projekty\modul-16\zadanie-16-5\node    _modules\react\index.js.Children. Check out http://babeljs.io/docs/usage/opt    ions/ for more information about options.
+  
+  - A common cause of this error is the presence of a configuration options obje    ct without the corresponding preset name. Example:
+  
+  - Invalid:
+  
+  - `{ presets: [{option: value}] }`
+  
+  - Valid:
+  
+  - `{ presets: [['presetName', {option: value}]] }`
+  
+  - For more detailed information on preset configuration, please see https://ba    beljs.io/docs/en/plugins#pluginpresets-options. (While processing preset: "C    :\\users\\kasztaniewicz\\documents\\kodilla\\projekty\\modul-16\\zadanie-16-    5\\node_modules\\react\\index.js")
+  
+  - Module build failed: ReferenceError: [BABEL] C:\users\kasztaniewicz\document    s\kodilla\projekty\modul-16\zadanie-16-5\node_modules\webpack\buildin\module    .js: Unknown option: C:\users\kasztaniewicz\documents\kodilla\projekty\modul    -16\zadanie-16-5\node_modules\react\index.js.Children. Check out http://babe    ljs.io/docs/usage/options/ for more information about options.
+  
+  - A common cause of this error is the presence of a configuration options obje    ct without the corresponding preset name. Example:
+  
+  - Invalid:
+  
+  - `{ presets: [{option: value}] }`
+  
+  - Valid:
+  
+  - `{ presets: [['presetName', {option: value}]] }`
+  
+  - For more detailed information on preset configuration, please see https://ba    beljs.io/docs/en/plugins#pluginpresets-options. (While processing preset: "C    :\\users\\kasztaniewicz\\documents\\kodilla\\projekty\\modul-16\\zadanie-16-    5\\node_modules\\react\\index.js")
+  
+  - logger.js:41 Logger.error
+    [zadanie-16-5]/[babel-core]/lib/transformation/file/logger.js:41:11
+  
+  - option-manager.js:226 OptionManager.mergeOptions
+    [zadanie-16-5]/[babel-core]/lib/transformation/file/options/option-manager.j    s:226:20
+  
+  - option-manager.js:265 
+    [zadanie-16-5]/[babel-core]/lib/transformation/file/options/option-manager.j    s:265:14
+  
+  - option-manager.js:323 
+    [zadanie-16-5]/[babel-core]/lib/transformation/file/options/option-manager.j    s:323:22
+  
+  - Array.map
+  
+  - option-manager.js:275 OptionManager.resolvePresets
+    [zadanie-16-5]/[babel-core]/lib/transformation/file/options/option-manager.j    s:275:20
+  
+  - option-manager.js:264 OptionManager.mergePresets
+    [zadanie-16-5]/[babel-core]/lib/transformation/file/options/option-manager.j    s:264:10
+  
+  - option-manager.js:249 OptionManager.mergeOptions
+    [zadanie-16-5]/[babel-core]/lib/transformation/file/options/option-manager.j    s:249:14
+  
+  - option-manager.js:368 OptionManager.init
+    [zadanie-16-5]/[babel-core]/lib/transformation/file/options/option-manager.j    s:368:12
+  
+  - index.js:212 File.initOptions
+    [zadanie-16-5]/[babel-core]/lib/transformation/file/index.js:212:65
+  
+  - index.js:135 new File
+    [zadanie-16-5]/[babel-core]/lib/transformation/file/index.js:135:24
+  
+  - pipeline.js:46 Pipeline.transform
+    [zadanie-16-5]/[babel-core]/lib/transformation/pipeline.js:46:16
+  
+  - index.js:50 transpile
+    [zadanie-16-5]/[babel-loader]/lib/index.js:50:20
+  
+  
+  - ReferenceError: [BABEL] C:\users\kasztaniewicz\documents\kodilla\projekty\mo    dul-16\zadanie-16-5\node_modules\webpack\buildin\module.js: Unknown option:     C:\users\kasztaniewicz\documents\kodilla\projekty\modul-16\zadanie-16-5\node    _modules\react\index.js.Children. Check out http://babeljs.io/docs/usage/opt    ions/ for more information about options.
+  
+  - A common cause of this error is the presence of a configuration options obje    ct without the corresponding preset name. Example:
+  
+  - Invalid:
+  
+  - `{ presets: [{option: value}] }`
+  
+  - Valid:
+  
+  - `{ presets: [['presetName', {option: value}]] }`
+  
+  - For more detailed information on preset configuration, please see https://ba    beljs.io/docs/en/plugins#pluginpresets-options. (While processing preset: "C    :\\users\\kasztaniewicz\\documents\\kodilla\\projekty\\modul-16\\zadanie-16-    5\\node_modules\\react\\index.js")
+  
+  - compiler.js:79 childCompiler.runAsChild
+    [zadanie-16-5]/[html-webpack-plugin]/lib/compiler.js:79:16
+  
+  - Compiler.js:300 compile
+    [zadanie-16-5]/[webpack]/lib/Compiler.js:300:11
+  
+</pre><script type="text/javascript" src="app.bundle.js"></script>
